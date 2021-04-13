@@ -1,9 +1,11 @@
 #include <stdio.h>
 int main()
 {
+    freopen("input.txt", "r", stdin);
+freopen("output.txt", "w", stdout);
     char operator;
     double n1, n2;
-    printf("enter an operator(+, -, *, /)" );
+    //printf("enter an operator(+, -, *, /)" );
     scanf("%c", &operator);
     printf("enter two number: ");
     scanf("%lf %lf", &n1, &n2);

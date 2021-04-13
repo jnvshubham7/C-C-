@@ -5,6 +5,8 @@
 // index of it, else returns -1.
 int interpolationSearch(int arr[], int *q, int x)
 {
+     freopen("input.txt", "r", stdin);
+freopen("output.txt", "w", stdout);
     int n=*q;
     // Find indexes of two corners
     int lo = 0, hi = (n - 1);

@@ -2,6 +2,9 @@
 void checkPrimeNumber();
 int main()
 {
+    freopen("input.txt", "r", stdin);
+freopen("output.txt", "w", stdout);
+    
     checkPrimeNumber();
     return 0;
 
@@ -10,7 +13,7 @@ void checkPrimeNumber()
 {
     int n, i, flag = 0;
 
-    printf("enter a positive number: ");
+  //  printf("enter a positive number: ");
     scanf("%d", &n);
     for (i=2; i <=n/2; ++i)
     {

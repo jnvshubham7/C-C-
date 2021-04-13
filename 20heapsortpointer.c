@@ -3,6 +3,8 @@ int temp;
   
 void heapify(int arr[], int size, int i)  
 {  
+     freopen("input.txt", "r", stdin);
+freopen("output.txt", "w", stdout);
 int *f= arr;
 int largest = i;    
 int left = 2*i + 1;    

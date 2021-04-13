@@ -1,6 +1,8 @@
 #include <stdio.h>
 int main()
 {
+   
+    
     double number, sum = 0.0;
     do
     { 

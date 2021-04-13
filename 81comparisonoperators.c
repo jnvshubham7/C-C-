@@ -1,7 +1,10 @@
 #include <stdio.h>
 int main()
 {
-    int a = 5, b = 10;
+    freopen("input.txt", "r", stdin);
+freopen("output.txt", "w", stdout);
+    int a,b;
+    scanf("%d %d", &a, &b);
 
     printf("%d\n", b > -1);
     printf("%d\n", b > 5);

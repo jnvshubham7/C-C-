@@ -1,6 +1,8 @@
 #include <stdio.h>
 int main()
 {
+  freopen("input.txt", "r", stdin);
+freopen("output.txt", "w", stdout);
     int a = 2, b = 1;
     a +=b;
       printf("a = %d\n", a);

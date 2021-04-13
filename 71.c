@@ -1,6 +1,8 @@
 #include <stdio.h>
 int main()
 {
+    freopen("input.txt", "r", stdin);
+freopen("output.txt", "w", stdout);
     int a = 50, b = 4, interger_result;
     double c= 50, d = 4, double_result;
 interger_result = a/b;

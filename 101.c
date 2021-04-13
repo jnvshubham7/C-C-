@@ -1,12 +1,14 @@
 #include <stdio.h>
 int main()
 {
+    freopen("input.txt", "r", stdin);
+freopen("output.txt", "w", stdout);
     const int  maxinput = 100;
     int i;
     double number, average, sum = 0.0;
     for (i = 1; i <= maxinput; i++)
 {
-    printf("%d enter a number: ", i);
+   // printf("%d enter a number: ", i);
     scanf("%lf", &number);
   if(number < 0.0)
   {

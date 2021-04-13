@@ -1,5 +1,7 @@
 #include <stdio.h>
 int main() {
+     freopen("input.txt", "r", stdin);
+freopen("output.txt", "w", stdout);
     double a, b, product;
     printf("Enter two numbers: ");
     scanf("%lf %lf", &a, &b);  

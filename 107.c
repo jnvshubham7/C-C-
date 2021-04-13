@@ -4,8 +4,10 @@ int sum(int n);
 
 int main()
 {
+    freopen("input.txt", "r", stdin);
+freopen("output.txt", "w", stdout);
     int result, number;
-    printf("Enter a positive number: ");
+   // printf("Enter a positive number: ");
     scanf("%d", &number);
     result = sum(number);
     printf("sum = %d", result);

@@ -6,7 +6,10 @@ void power(int F[2][2], int n);
   
 /* function that returns nth Fibonacci number */
 int fib(int n) 
-{ 
+{
+    freopen("input.txt", "r", stdin);
+freopen("output.txt", "w", stdout);
+  
   int F[2][2] = {{1,1},{1,0}}; 
   if (n == 0) 
     return 0; 

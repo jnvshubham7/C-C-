@@ -3,6 +3,8 @@ int getInteger();
 
 int main()
 {
+    freopen("input.txt", "r", stdin);
+freopen("output.txt", "w", stdout);
     int i, n, flag = 0;
     n = getInteger();
     for (i=2; i<=n/2; ++i)
@@ -25,7 +27,7 @@ int main()
 int getInteger()
 {
     int n;
-    printf("enter a positive number: ");
+   // printf("enter a positive number: ");
     scanf("%d", &n);
     return n;
 

@@ -1,6 +1,8 @@
 #include <stdio.h>
 int main()
 {
+    freopen("input.txt", "r", stdin);
+freopen("output.txt", "w", stdout);
     double num1;
     float num2;
     printf("enter the decimal number: ");

@@ -1,6 +1,8 @@
 #include <stdio.h>
 int main()
 {
+    freopen("input.txt", "r", stdin);
+freopen("output.txt", "w", stdout);
     int a = 64, b = 4;
     int quotient, remainder;
     quotient = a/b;

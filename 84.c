@@ -1,6 +1,8 @@
 #include <stdio.h>
 int main()
 {
+    freopen("input.txt", "r", stdin);
+freopen("output.txt", "w", stdout);
     int age = 18, salary = 200, result;
 result =  age >= 18  && salary >= 100;
     printf("%d\n", result);

@@ -3,8 +3,10 @@ int checkPrimeNumber(int n);
 
 int main()
 {
+    freopen("input.txt", "r", stdin);
+freopen("output.txt", "w", stdout);
     int n, flag;
-    printf("Enter a positive integer: ");
+    //printf("Enter a positive integer: ");
     scanf("%d", &n);
     flag = checkPrimeNumber(n);
     if(flag == 1)

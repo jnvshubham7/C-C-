@@ -3,6 +3,8 @@
 // Function to find n'th Fibonacci number
 int fib(int n)
 {
+     freopen("input.txt", "r", stdin);
+freopen("output.txt", "w", stdout);
     if (n <= 1)
         return n;
 

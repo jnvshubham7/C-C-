@@ -1,5 +1,7 @@
 #include<stdio.h>
 int main(){
+     freopen("input.txt", "r", stdin);
+freopen("output.txt", "w", stdout);
 int a[10000],b[10000],i,j,n,c=0;
 printf("enter size of the array:");
 scanf("%d",&n);

@@ -1,1 +1,4 @@
-printf("Enter two integers: ");
+#include <stdio.h>
+int checkPrimeNumber(int n);
+
+int main()

@@ -1,5 +1,7 @@
 #include <stdio.h>
-int main() {    
+int main() {  
+     freopen("input.txt", "r", stdin);
+freopen("output.txt", "w", stdout);  
 
     int number1, number2, sum;
     
