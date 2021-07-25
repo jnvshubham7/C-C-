@@ -1,1 +1,1 @@
-0
+Enter two integers: 12 + 6 = 18
