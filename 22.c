@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main()
 {
-     freopen("input.txt", "r", stdin);
-freopen("output.txt", "w", stdout);
+    // freopen("input.txt", "r", stdin);
+//freopen("output.txt", "w", stdout);
     int a, b, sum = 0;
     scanf("%d%d", &a, &b);
     {

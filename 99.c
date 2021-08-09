@@ -9,6 +9,7 @@ freopen("output.txt", "w", stdout);
     for(i = 1; i <= 10; ++i)
     {
    // printf("enter a n%d: ", i);
+   // scanf used for sacn any number,string,etc
     scanf("%lf", &number);
     if(number < 0.0)
 {
